@@ -1,0 +1,15 @@
+public class Paciente extends Pessoa {
+    private String apelido;
+    private int nivelDeUrgencia;
+
+    public Paciente (String nome, String cpf, int idade, int sexo, String apelido, int nivelDeUrgencia) {
+        super (nome, cpf, idade, sexo);
+        this.apelido = apelido;
+        this.nivelDeUrgencia = nivelDeUrgencia;
+    }
+
+    @Override
+    public void exibirPerfil() {
+        System.out.println( apelido + " - Urgência" + nivelDeUrgencia );
+    }
+}
