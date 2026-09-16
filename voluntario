@@ -1,0 +1,6 @@
+public class Voluntario extends Pessoa{
+    public Voluntario (String nome, int idade, int sexo, String cpf){
+              
+    }
+    
+}
