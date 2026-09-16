@@ -1,0 +1,3 @@
+public class Psicologo {
+    protected int crm;
+}
