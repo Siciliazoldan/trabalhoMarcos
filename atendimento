@@ -1,0 +1,7 @@
+public class Atendimento {
+    Paciente paciente;
+    Pessoa atendente;
+    ProntuarioDeRisco prontuario;
+
+
+}
